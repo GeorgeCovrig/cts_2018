@@ -11,7 +11,7 @@ public abstract class ContBancar extends Cont{
 	}
 	
 	@Override
-	public double getBalanta(){
+	final public double getBalanta(){
 		return this.balanta;
 	}
 	
