@@ -1,0 +1,12 @@
+Specifications
+
+Student age
+- minimum accepted value  = 5
+- maximum accepted value = 90
+- for anything else throw StudentAgeException
+
+Student name
+- minimum length = 2
+- maximum length = 200
+- only letters allowed
+- for anything else throw StudentException
