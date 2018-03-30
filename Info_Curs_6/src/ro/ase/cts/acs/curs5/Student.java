@@ -9,7 +9,7 @@ public class Student {
 	
 	int varsta;
 	
-	public void setVarsta(Integer valoare) 
+	public void setVarsta(int valoare) 
 			throws ExceptieVarstaStudent{
 		if(valoare >= VARSTA_MINIMA && valoare <= VARSTA_MAXIMA)
 		this.varsta = valoare;
